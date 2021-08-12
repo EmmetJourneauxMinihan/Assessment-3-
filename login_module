@@ -1,0 +1,35 @@
+class parkd_ui:
+    username = None
+    password = None
+
+    
+    def __init__(self):
+        self.username = input("PLease enter username:")
+        self.password = input("Please enter password:")
+
+    def pass_check(self, cred_load):
+        creds = open(cred_load, 'r').read().split(",")
+        
+        switch = 0
+        for i in range(len(creds)):
+            if switch == 1:
+                break
+            temp = creds[i]
+            if temp == self.username:
+                if creds[i+1] == self.password:
+                    switch = 1
+    
+        if switch == 1:
+            print("login successful")
+        
+        else:
+            print ("Invalid credentials. Try again.")
+            parkd_ui().pass_check(cred_load)
+        
+        
+
+cred_load = "cred.csv"
+parkd_ui().pass_check(cred_load)
+
+import msvcrt as m
+m.getch()
