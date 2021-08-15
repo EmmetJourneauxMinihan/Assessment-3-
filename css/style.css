@@ -1,0 +1,157 @@
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, quicksand, sans-serif, Arial;
+  line-height: 1.4;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* utility */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #ffffff;
+}
+
+/* navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #252A37;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid #ffffff;
+
+}
+
+#navbar ul {
+  display: flex;
+  align-items:center;
+  list-style: none;
+}
+
+#navbar h2 a{
+  color: #f4d529;
+  text-decoration: none;
+
+}
+
+#navbar li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#navbar li a:hover {
+  background-color: #B98D1B;
+}
+
+
+/* Showcase Area */
+#showcase {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 91.0vh;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.showcase-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  }
+
+.showcase-content .btn {
+  font-size: 1.5rem;
+  padding: 1rem 10rem;
+  transition: color 0.3s, background 0.3s;
+}
+
+.showcase-content .btn:hover {
+  background: #B98D1B;
+  color: #fff;
+}
+
+.btn {
+  color: #B98D1B;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid #B98D1B;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Section: About- Team profile */
+#about {
+  padding: 5rem 0;
+  background-color: #101319;
+
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about p.lead {
+  margin-bottom: 1rem;
+}
+
+#about .about-content {
+  display: flex;
+}
+
+#about .about-text, #about .about-taylor{
+  flex: 1;
+}
+
+#about .about-text {
+  text-align: justify;
+
+}
+
+#about .about-taylor img{
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  border-radius: 60%;
+  margin-top: 60px;
+  border: 3px solid #fff;
+}
