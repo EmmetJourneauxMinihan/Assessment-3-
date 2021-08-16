@@ -40,7 +40,7 @@ body {
 
 #navbar ul {
   display: flex;
-  align-items:center;
+  align-items: center;
   list-style: none;
 }
 
@@ -113,44 +113,150 @@ body {
 }
 
 /* Section: About- Team profile */
-#about {
+
+
+/* about taylor */
+
+#about-taylor {
   padding: 5rem 0;
   background-color: #101319;
 
 }
 
-#about h2 {
+#about-taylor h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
 }
 
-#about h3 {
+#about-taylor h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-#about p.lead {
+#about-taylor p.lead {
   margin-bottom: 1rem;
 }
 
-#about .about-content {
+
+#about-taylor .about-content-taylor {
   display: flex;
 }
 
-#about .about-text, #about .about-taylor{
+#about-taylor .about-text-taylor, #about-taylor .about-taylor{
   flex: 1;
 }
 
-#about .about-text {
+#about-taylor .about-text-taylor {
   text-align: justify;
 
 }
 
-#about .about-taylor img{
+#about-taylor .about-taylor img{
   display: block;
-  margin-left: auto;
-  width: 70%;
+  margin-left: 50px;
+  width: 375px;
+  border-radius: 60%;
+  margin-top: 60px;
+  border: 3px solid #fff;
+}
+
+
+
+/* Section: About- Emmet and sam */
+
+
+
+#about-emmet, #about-sam {
+  padding: 5rem 0;
+  background-color: #fff;
+  color: #101319;
+  weight: 200;
+
+}
+
+#about-emmet h2, #about-sam h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about-emmet h3, #about-sam h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about-emmet p.lead, #about-sam p.lead {
+  margin-bottom: 1rem;
+}
+
+
+#about-emmet .about-content-emmet, #about-sam .about-content-sam {
+  display: flex;
+}
+
+#about-emmet .about-text-emmet, #about-emmet .about-emmet, #about-sam .about-text-sam, #about-sam .about-sam {
+  flex: 1;
+}
+
+#about-emmet .about-text-emmet, #about-sam .about-text-sam {
+  text-align: justify;
+
+}
+
+#about-emmet .about-emmet img, #about-sam .about-sam img {
+  display: block;
+  margin-left: 50px;
+  width: 375px;
+  border-radius: 60%;
+  margin-top: 60px;
+  border: 4px solid #101319;
+}
+
+
+
+/* about Saajid */
+
+
+#about-saajid {
+  padding: 5rem 0;
+  background-color: #101319;
+
+}
+
+#about-saajid h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about-saajid h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about-saajid p.lead {
+  margin-bottom: 1rem;
+}
+
+
+#about-saajid .about-content-saajid {
+  display: flex;
+}
+
+#about-saajid .about-text-saajid, #about-saajid .about-saajid{
+  flex: 1;
+}
+
+#about-saajid .about-text-saajid {
+  text-align: justify;
+
+}
+
+#about-saajid .about-saajid img{
+  display: block;
+  margin-left: 50px;
+  width: 375px;
   border-radius: 60%;
   margin-top: 60px;
   border: 3px solid #fff;
