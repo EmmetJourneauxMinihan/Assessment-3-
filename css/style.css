@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+ul {
+  padding-left: 20px;
+}
+
 /* utility */
 
 .container {
@@ -21,8 +25,13 @@ body {
 }
 
 .text-primary {
-  color: #ffffff;
+  color: #f4d529;
 }
+
+.text-secondary {
+  color: #B98D1B
+}
+
 
 /* navbar */
 #navbar {
@@ -45,7 +54,7 @@ body {
 }
 
 #navbar h2 a{
-  color: #f4d529;
+  color: #fff;
   text-decoration: none;
 
 }
@@ -97,7 +106,7 @@ body {
   transition: color 0.3s, background 0.3s;
 }
 
-.showcase-content .btn:hover {
+.showcase-content .btn:hover, .jobs-content .btn:hover {
   background: #B98D1B;
   color: #fff;
 }
@@ -131,6 +140,11 @@ body {
 
 #about-taylor h3 {
   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about-taylor h4 {
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
@@ -260,4 +274,97 @@ body {
   border-radius: 60%;
   margin-top: 60px;
   border: 3px solid #fff;
+}
+
+
+
+
+
+
+/* jobs header */
+#jobs {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+#jobs .jobs-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.jobs-content .btn {
+  font-size: 1.5rem;
+  transition: color 0.3s, background 0.3s;
+  width: 200px;
+  text-align: center;
+}
+
+.jobs-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* jobs-taylor */
+
+#job-taylor {
+  padding: 2rem 0;
+  background-color: #101319;
+}
+
+#job-taylor h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+
+#job-taylor h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 1.1rem;
+}
+
+#job-taylor h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ margin-top: 0.5rem;
+}
+
+
+/* Jobs-Emmet */
+
+#job-emmet {
+  padding: 2rem 0;
+  color: #101319;
+}
+
+#job-emmet h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+
+#job-emmet h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 1.1rem;
+}
+
+#job-emmet h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ margin-top: 0.5rem;
+}
+
+#job-emmet-content {
+  background-color: #cecece;
 }
