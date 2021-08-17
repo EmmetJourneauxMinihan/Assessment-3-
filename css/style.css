@@ -17,6 +17,13 @@ ul {
   padding-left: 20px;
 }
 
+h5 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
 /* utility */
 
 .container {
@@ -30,6 +37,11 @@ ul {
 
 .text-secondary {
   color: #B98D1B
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 
@@ -314,25 +326,25 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-/* jobs-taylor */
+/* jobs-taylor and jobs-Saajid */
 
-#job-taylor {
+#job-taylor, #job-saajid {
   padding: 2rem 0;
   background-color: #101319;
 }
 
-#job-taylor h1 {
+#job-taylor h1, #job-saajid h1, #job-discussion h1 {
   text-align: center;
   font-size: 3rem;
   padding: 1.5rem 0;
 }
 
-#job-taylor h2 {
+#job-taylor h2, #job-saajid h2, #job-discussion h2 {
   margin-top: 1.7rem;
   margin-bottom: 1.1rem;
 }
 
-#job-taylor h3 {
+#job-taylor h3, #job-saajid h3 {
  font-size: 1.2rem;
  font-weight: 600;
  margin-bottom: 0.5rem;
@@ -342,29 +354,48 @@ ul {
 
 /* Jobs-Emmet */
 
-#job-emmet {
+#job-emmet, #job-sam {
   padding: 2rem 0;
   color: #101319;
 }
 
-#job-emmet h1 {
+#job-emmet h1, #job-sam h1 {
   text-align: center;
   font-size: 3rem;
   padding: 1.5rem 0;
 }
 
-#job-emmet h2 {
+#job-emmet h2, #job-sam h2 {
   margin-top: 1.7rem;
-  margin-bottom: 1.1rem;
+  margin-bottom: 0.7rem;
 }
 
-#job-emmet h3 {
+#job-emmet h3, #job-sam h3 {
  font-size: 1.2rem;
  font-weight: 600;
  margin-bottom: 0.5rem;
  margin-top: 0.5rem;
 }
 
-#job-emmet-content {
+#job-emmet h5, #job-sam h5 {
+  color: #101319
+}
+
+#job-emmet-content, #job-sam-content {
   background-color: #cecece;
+}
+
+
+
+/* Job Discussion Styling */
+#job-discussion {
+  background-color: #101319;
+}
+
+table {
+  border-spacing: 50px;
+}
+
+th {
+  text-align: left;
 }
