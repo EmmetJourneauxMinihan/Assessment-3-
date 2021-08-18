@@ -13,6 +13,17 @@ body {
   overflow-x: hidden;
 }
 
+ul {
+  padding-left: 20px;
+}
+
+h5 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
 /* utility */
 
 .container {
@@ -21,8 +32,18 @@ body {
 }
 
 .text-primary {
-  color: #ffffff;
+  color: #f4d529;
 }
+
+.text-secondary {
+  color: #B98D1B
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
 
 /* navbar */
 #navbar {
@@ -40,17 +61,17 @@ body {
 
 #navbar ul {
   display: flex;
-  align-items:center;
+  align-items: left;
   list-style: none;
 }
 
 #navbar h2 a{
-  color: #f4d529;
+  color: #fff;
   text-decoration: none;
 
 }
 
-#navbar li a{
+#navbar li a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
@@ -91,13 +112,13 @@ body {
   margin-bottom: 2rem;
   }
 
-.showcase-content .btn {
+.showcase-content .btn, .project-idea-content .btn {
   font-size: 1.5rem;
   padding: 1rem 10rem;
   transition: color 0.3s, background 0.3s;
 }
 
-.showcase-content .btn:hover {
+.showcase-content .btn:hover, .jobs-content .btn:hover, .project-idea-content .btn:hover {
   background: #B98D1B;
   color: #fff;
 }
@@ -113,45 +134,432 @@ body {
 }
 
 /* Section: About- Team profile */
-#about {
+
+
+/* about taylor */
+
+#about-taylor {
   padding: 5rem 0;
   background-color: #101319;
 
 }
 
-#about h2 {
+#about-taylor h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
 }
 
-#about h3 {
+#about-taylor h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-#about p.lead {
+#about-taylor h4 {
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-#about .about-content {
+#about-taylor p.lead {
+  margin-bottom: 1rem;
+}
+
+
+#about-taylor .about-content-taylor {
   display: flex;
 }
 
-#about .about-text, #about .about-taylor{
+#about-taylor .about-text-taylor, #about-taylor .about-taylor{
   flex: 1;
 }
 
-#about .about-text {
+#about-taylor .about-text-taylor {
   text-align: justify;
 
 }
 
-#about .about-taylor img{
+#about-taylor .about-taylor img{
   display: block;
-  margin-left: auto;
-  width: 70%;
+  margin-left: 50px;
+  width: 375px;
   border-radius: 60%;
   margin-top: 60px;
   border: 3px solid #fff;
+}
+
+
+
+/* Section: About- Emmet and sam */
+
+
+
+#about-emmet, #about-sam {
+  padding: 5rem 0;
+  background-color: #fff;
+  color: #101319;
+  weight: 200;
+
+}
+
+#about-emmet h2, #about-sam h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about-emmet h3, #about-sam h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about-emmet p.lead, #about-sam p.lead {
+  margin-bottom: 1rem;
+}
+
+
+#about-emmet .about-content-emmet, #about-sam .about-content-sam {
+  display: flex;
+}
+
+#about-emmet .about-text-emmet, #about-emmet .about-emmet, #about-sam .about-text-sam, #about-sam .about-sam {
+  flex: 1;
+}
+
+#about-emmet .about-text-emmet, #about-sam .about-text-sam {
+  text-align: justify;
+
+}
+
+#about-emmet .about-emmet img, #about-sam .about-sam img {
+  display: block;
+  margin-left: 50px;
+  width: 375px;
+  border-radius: 60%;
+  margin-top: 60px;
+  border: 4px solid #101319;
+}
+
+
+
+/* about Saajid */
+
+
+#about-saajid {
+  padding: 5rem 0;
+  background-color: #101319;
+
+}
+
+#about-saajid h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about-saajid h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about-saajid p.lead {
+  margin-bottom: 1rem;
+}
+
+
+#about-saajid .about-content-saajid {
+  display: flex;
+}
+
+#about-saajid .about-text-saajid, #about-saajid .about-saajid{
+  flex: 1;
+}
+
+#about-saajid .about-text-saajid {
+  text-align: justify;
+
+}
+
+#about-saajid .about-saajid img{
+  display: block;
+  margin-left: 50px;
+  width: 375px;
+  border-radius: 60%;
+  margin-top: 60px;
+  border: 3px solid #fff;
+}
+
+
+
+
+
+
+/* jobs header */
+#jobs {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+#jobs .jobs-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.jobs-content .btn {
+  font-size: 1.5rem;
+  transition: color 0.3s, background 0.3s;
+  width: 200px;
+  text-align: center;
+}
+
+.jobs-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* jobs-taylor and jobs-Saajid */
+
+#job-taylor, #job-saajid {
+  padding: 2rem 0;
+  background-color: #101319;
+}
+
+#job-taylor h1, #job-saajid h1, #job-discussion h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+
+#job-taylor h2, #job-saajid h2, #job-discussion h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 1.1rem;
+}
+
+#job-taylor h3, #job-saajid h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ margin-top: 0.5rem;
+}
+
+
+/* Jobs-Emmet */
+
+#job-emmet, #job-sam {
+  padding: 2rem 0;
+  color: #101319;
+}
+
+#job-emmet h1, #job-sam h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+
+#job-emmet h2, #job-sam h2 {
+  margin-top: 1.7rem;
+  margin-bottom: 0.7rem;
+}
+
+#job-emmet h3, #job-sam h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ margin-top: 0.5rem;
+}
+
+#job-emmet h5, #job-sam h5 {
+  color: #101319
+}
+
+#job-emmet-content, #job-sam-content {
+  background-color: #cecece;
+}
+
+
+
+/* Job Discussion Styling */
+#job-discussion {
+  background-color: #101319;
+}
+
+table {
+  border-spacing: 50px;
+}
+
+th {
+  text-align: left;
+}
+
+#jobs {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+
+/* tools header */
+#tools {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+#tools .tools-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.tools-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+#tools-discussion {
+  background-color: #101319;
+}
+
+#tools-discussion h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+#tools-discussion h3 {
+  font-size: 1.1rem;
+  font-weight: 550;
+  padding-bottom: 0;
+  margin-bottom: 0.3rem;
+}
+
+#tools-discussion li {
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* Project Idea Showcase */
+
+#project-idea {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+#project-idea .project-idea-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.project-idea-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Used specifically for Project Idea */
+
+#project-showcase {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 91.0vh;
+}
+
+.project-showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.project-showcase-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.project-showcase-content h2 {
+  font-size: 2.5rem;
+  padding: 3rem;
+  color: #f4d529;
+}
+
+.light {
+  padding: 2rem 0;
+  color: #101319;
+  font-weight: 500;
+}
+
+.light h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.dark {
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+.dark h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+
+#introduction, #overview {
+  background-color: #ffffff;
+  min-height: 50vh;
+}
+
+#motivation, #landscape {
+  background-color: #101319;
+  min-height: 50vh;
 }
