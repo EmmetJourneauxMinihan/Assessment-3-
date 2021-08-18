@@ -61,7 +61,7 @@ h5 {
 
 #navbar ul {
   display: flex;
-  align-items: center;
+  align-items: left;
   list-style: none;
 }
 
@@ -71,7 +71,7 @@ h5 {
 
 }
 
-#navbar li a{
+#navbar li a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
@@ -112,13 +112,13 @@ h5 {
   margin-bottom: 2rem;
   }
 
-.showcase-content .btn {
+.showcase-content .btn, .project-idea-content .btn {
   font-size: 1.5rem;
   padding: 1rem 10rem;
   transition: color 0.3s, background 0.3s;
 }
 
-.showcase-content .btn:hover, .jobs-content .btn:hover {
+.showcase-content .btn:hover, .jobs-content .btn:hover, .project-idea-content .btn:hover {
   background: #B98D1B;
   color: #fff;
 }
@@ -398,4 +398,168 @@ table {
 
 th {
   text-align: left;
+}
+
+#jobs {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+
+/* tools header */
+#tools {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+
+#tools .tools-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.tools-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+#tools-discussion {
+  background-color: #101319;
+}
+
+#tools-discussion h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+#tools-discussion h3 {
+  font-size: 1.1rem;
+  font-weight: 550;
+  padding-bottom: 0;
+  margin-bottom: 0.3rem;
+}
+
+#tools-discussion li {
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* Project Idea Showcase */
+
+#project-idea {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 95vh;
+}
+#project-idea .project-idea-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  height: 95.0vh;
+  color: #fff;
+}
+
+.project-idea-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Used specifically for Project Idea */
+
+#project-showcase {
+  background: url(../img/office.jpg) no-repeat center center/cover;
+  height: 91.0vh;
+}
+
+.project-showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.project-showcase-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.project-showcase-content h2 {
+  font-size: 2.5rem;
+  padding: 3rem;
+  color: #f4d529;
+}
+
+.light {
+  padding: 2rem 0;
+  color: #101319;
+  font-weight: 500;
+}
+
+.light h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.dark {
+  padding: 2rem 0;
+  color: #ffffff;
+}
+
+.dark h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+
+#introduction, #overview {
+  background-color: #ffffff;
+  min-height: 50vh;
+}
+
+#motivation, #landscape {
+  background-color: #101319;
+  min-height: 50vh;
 }
