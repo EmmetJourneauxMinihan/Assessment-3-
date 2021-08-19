@@ -500,8 +500,8 @@ th {
 /* CSS Used specifically for Project Idea */
 
 #project-showcase {
-  background: url(../img/office.jpg) no-repeat center center/cover;
-  height: 91.0vh;
+  background: url(../img/parkd.png) no-repeat center center/cover;
+  height: 90.7vh;
 }
 
 .project-showcase-content {
@@ -515,7 +515,8 @@ th {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.9);
+  height: 91vh;
   color: #fff;
 }
 
@@ -554,12 +555,12 @@ th {
 }
 
 
-#introduction, #overview {
+#introduction, #overview #aim, #timeframe, #tools, #roles, #tools-technologies {
   background-color: #ffffff;
   min-height: 50vh;
 }
 
-#motivation, #landscape {
+#motivation, #landscape, #plans-progress, #scope-limits, #testing, #risks {
   background-color: #101319;
   min-height: 50vh;
 }
