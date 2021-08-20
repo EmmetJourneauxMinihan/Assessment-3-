@@ -554,6 +554,20 @@ th {
   padding-bottom: 3rem;
 }
 
+.dark h3 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+}
+
+.light h3 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+}
+
 
 #introduction, #overview #aim, #timeframe, #tools, #roles, #tools-technologies {
   background-color: #ffffff;
@@ -563,4 +577,11 @@ th {
 #motivation, #landscape, #plans-progress, #scope-limits, #testing, #risks {
   background-color: #101319;
   min-height: 50vh;
+}
+
+.flow img, .pie-chart img, .certificate img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fff;
 }
