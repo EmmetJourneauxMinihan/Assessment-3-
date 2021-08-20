@@ -19,7 +19,7 @@
       <li><a href="index.html#jobs">Career Plans</a></li>
       <li><a href="index.html#tools">Tools</a></li>
       <li><a href="#project-idea">Project Idea</a></li>
-      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="#feedback">Reflection</a></li>
     </ul>
   </nav>
 
@@ -121,7 +121,20 @@
   <div class="container">
     <div class="dark">
       <h2>Scope and Limits</h2>
-      <p></p>
+      <p>ParKd was initiated to address motorcycle parking problems within the Sydney Area by creating a two wheeled parking solutions app. Our key objective is to automate and decrease the time spent manually searching for optimal parking near a chosen location. The function of the application is to provide a user-friendly interface with three steps.  <br><br>Step1# Searching – the rider types in their desired location, ParKd will suggest the closest free and hosted parking to the chosen Location
+      <br><br>Step2# Route planning, this is an important feature to address arrival and departure times holding true to our key objective.
+      <br><br>Step3# ParKd, the arrival the rider simply parks either in the free or paid hosted bay at said location.
+      <br><br>There will be a corresponding web application whereby anyone using the app can log in to view <br><br>
+    </p>
+      <div class="pie-chart">
+        <img src="img/pie.jpg" alt="Pie Chart for Statement of work">
+      </div>
+      <br><br>
+      <div class="flow">
+        <img src="img/flow.jpg" alt="Flow Chart">
+      </div>
+      <h3>Major Constraints</h3>
+      <p>Scope creep, personal differences leading towards absence of communication thus resulting in ineffective time management and unobtainable milestones.  </p>
     </div>
   </div>
 </section>
@@ -130,7 +143,47 @@
   <div class="container">
     <div class="light">
       <h2>Tools and Technologies</h2>
-      <p></p>
+      <h3>Web Server/IIS/Apache Server:</h3>
+      <p>Windows have service called IIS or Internet Information Services that can be added as a feature in Windows Server/10/7 etc. which can host websites in the intranet or internet. For Linux, we can use Apache server. It is open source and free to use. It can run on Windows too. XAMPP is also a good tool for hosting website. It has a graphical interface for SQL, so it is a good tool for RDBMS. </p>
+
+      <h3>DNS (Private/Public)</h3>
+      <p>DNS is a translator in simple words, it translates a domain name into an IP address. It can be private, or it can be public. Mostly private DNS are used for intranets. Public DNS is used for internet. Such as: 8.8.8.8 (Google), No-IP, DynDNS etc. For name resolution: we can use a static Public IP address or No-IP/DynDNS. DynDNS or No-IP simply keeps a record of updated public IP address, after the lease ends. So, when the domain name is resolves, it gets the updated IP and routed to the host. </p>
+
+      <h3>RDBMS</h3>
+      <p>Also known as Relational Database Management System. Such as: SQL, MySQL, DB2 etc. MS Access is also RDBMS. However, it cannot manage large quantities of cells like SQL can. So, for a software like ParKd needs to have SQL database at least. Tools for RDBMS are Azure Data Studio (Hybrid), MS SQL server, XAMPP etc.  <br>
+      [<b>NB.</b> SQL can hold 524 Petabytes of data at the maximum]  </p>
+
+      <h3>FTP Server</h3>
+      <p>We can get the FTP service from the windows feature. It is under the Internet Information Services. In simple words, FTP is used for accessing a folder remotely. Permission can vary for user to user. Such as: Read-only, Change and Full control.  </p>
+
+      <h3>Python</h3>
+      <p>Python is versatile and flexible. It is a high-level language. We can write modules and import modules on-demand.
+      <ul>
+        <li> <b>PyQRCode:</b> Generates QR code </li>
+        <li> <b>Cryptography:</b> Fernet, SHA256, SHA512, etc. </li>
+        <li> <b>OpenCV:</b> Can use a camera module to identify objects. The module we will use, will be able to resolve QR code to alphanumeric values.</li>
+        <li> <b>GeoPy:</b> Can get the geolocation, nearest location and farthest location </li>
+        <li> <b>SMTPlib:</b> Can send emails</li>
+        <li> <b>Kivy: </b>A Python framework created for the purpose of creating apps in Python. </li>
+      </ul>
+     </p>
+
+     <h3>HTML/CSS</h3>
+     <p>These are used for creating a document designed to be displayed on the browser. CSS is used for formatting the layout of a webpage.  </p>
+
+     <h3>CLI/.bat/.sh/.ps1:</h3>
+     <p>Also known as Command Line Prompt. It is another version of GUI or Graphical User Interface. CLI consumes less resources, CLI can be often faster than GUI. CLI is extremely useful when it comes to automation. We can also use CLI to deploy a script in a group of computers. In simple words, we can write bunch of commands in a batch file, shell script or PowerShell script and run them on a machine.</p>
+
+     <h3>HTTP, HTTPS, SSL, TLS</h3>
+     <p>HTTP is a protocol that is user for transmitting the webpages and other files. HTTPS functions similarly but it encrypts all communications between the server and the end user. For example, if we log into “http://www.login.com” using user = “tess” and password = “secret1234”, the communication will be in plain text. Anyone can see the credentials, using a packet analyzer such as: Wireshark. But if it is “https://www.login.com,” then the credentials will be encrypted before the credentials are transferred. So, even if there is MITM attack, the hacker can only see the encrypted version of the password, which is extremely difficult to decrypt as credentials will be using one way hash function.  <br><br>
+    To enable HTTPS, we need to install an SSL/TLS certificate. <br><br> </p>
+    <div class="certificate">
+    <img src="img/certificate.jpg" alt="Certificate imgage.">
+  </div>
+
+<h3>Encryption/Decryption/Hashing Algorithms</h3>
+
+
     </div>
   </div>
 </section>
