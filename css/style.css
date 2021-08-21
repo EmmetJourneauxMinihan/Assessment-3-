@@ -537,6 +537,12 @@ th {
   font-weight: 500;
 }
 
+.light h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
 .light h2 {
   font-size: 3rem;
   text-align: center;
@@ -569,12 +575,12 @@ th {
 }
 
 
-#introduction, #overview #aim, #timeframe, #tools, #roles, #tools-technologies {
+#introduction, #overview #aim, #timeframe, #tools, #roles, #tools-technologies, #skills-jobs1, #skills-jobs3, #skills-jobs5, #taylor-reflection, #saajid-reflection  {
   background-color: #ffffff;
   min-height: 50vh;
 }
 
-#motivation, #landscape, #plans-progress, #scope-limits, #testing, #risks {
+#motivation, #landscape, #plans-progress, #scope-limits, #testing, #risks, #skills-jobs2, #skills-jobs4, #emmet-reflection, #sam-reflection{
   background-color: #101319;
   min-height: 50vh;
 }
@@ -584,4 +590,20 @@ th {
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #fff;
+}
+
+.calendar-timeline img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #fff;
+  height: 450px;
+  width: 800px;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: auto;
+  text-align: center;
 }
