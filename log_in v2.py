@@ -24,7 +24,7 @@ def key_load():
 
     
 def encp(username, password):
-    user_pass = username + ".txt"
+    user_pass = "pass_vault/" + username + ".txt"
     key_prep = key_load()
     f_encp = key_prep.encrypt(password)
     open(user_pass, "wb").write(f_encp)
@@ -36,7 +36,7 @@ def encp(username, password):
 def decp(username):
     
     try:
-        user_pass = username + ".txt"
+        user_pass = "pass_vault\\" + username + ".txt"
         f_encp = open(user_pass, "rb").read()
         key_prep = key_load()
         raw = key_prep.decrypt(f_encp)
@@ -96,7 +96,7 @@ class ui:
 
 
 def user_access():
-    choice = input("Login as: (g)Guest\t(u)Regular user\t(n)New user\t(x)Exit")
+    choice = input("Login as: (g)Guest\t(u)Regular user\t\t(n)New user\t(x)Exit\n::")
 
  
     if choice == 'x':
