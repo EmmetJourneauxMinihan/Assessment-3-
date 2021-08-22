@@ -155,7 +155,7 @@ h5 {
   margin-bottom: 1rem;
 }
 
-#about-taylor h4 {
+#about-taylor h4, #about-emmet h4, #about-saajid h4, #about-sam h4 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
