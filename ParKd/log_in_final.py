@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 import signup_final
-
+import os
 
 
 def produce_key():
@@ -24,6 +24,12 @@ def key_load():
 
     
 def encp(username, password):
+
+    path = 'pass_vault'
+    isExist = os.path.exists(path)
+    if isExist != True:
+        os.mkdir('pass_vault')
+    
     user_pass = "pass_vault/" + username + ".txt"
     key_prep = key_load()
     f_encp = key_prep.encrypt(password)
