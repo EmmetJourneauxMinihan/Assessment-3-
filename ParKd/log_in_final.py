@@ -1,5 +1,5 @@
 from cryptography.fernet import Fernet
-import signup
+import signup_final
 
 
 
@@ -107,7 +107,7 @@ def user_access():
 
 
     elif choice == 'n':
-        (username, password) = signup.new_user()
+        (username, password) = signup_final.new_user()
         password = password.encode()
         encp(username, password)
         
