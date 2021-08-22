@@ -585,7 +585,7 @@ th {
   min-height: 50vh;
 }
 
-.flow img, .pie-chart img, .certificate img {
+.flow img, .pie-chart img, .certificate img, img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -604,6 +604,15 @@ th {
 iframe {
   margin-left: auto;
   margin-right: auto;
-  display: auto;
+  display: block;
   text-align: center;
+}
+
+.roles-image p {
+  text-align: center;
+}
+
+.product-goals img {
+  height: 75%;
+  width: 75%;
 }
