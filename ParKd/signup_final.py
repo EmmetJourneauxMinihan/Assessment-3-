@@ -1,3 +1,7 @@
+##########This module is called by log_in_final.py#############
+##########This module is called by log_in_final.py#############
+##########This module is called by log_in_final.py#############
+
 import smtplib
 import random as r
 import time
@@ -81,5 +85,3 @@ def new_user():
 
     if result == 0:
         return username , password
-    
-new_user()
